@@ -1,0 +1,40 @@
+// programe to evaluare arithmetic operation ((a-b/c*d+e)*(f+g))
+#include<stdio.h>
+void main()
+{
+	int a;
+	printf("entervalue for a");
+	scanf("%d",&a); 
+
+	int b;
+	printf("entervalue for b");
+	scanf("%d",&b); 
+
+	int c;
+	printf("entervalue for c");
+	scanf("%d",&c); 
+
+	int d;
+	printf("entervalue for d");
+	scanf("%d",&d); 
+	
+	int e;
+	printf("entervalue for e");
+	scanf("%d",&e); 
+
+	int f;
+	printf("entervalue for f");
+	scanf("%d",&f);
+
+	int g;
+	printf("entervalue for g");
+	scanf("%d",&g); 
+
+	int z;
+	z=(a-b/c*d+e)*(f+g);
+
+	printf("value of the operation ((a-b/c*d+e)*(f+g)) is:");
+	printf("%d",z);
+
+
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+  	char p;
+  	printf("Enter a single character\n");
+  	scanf("%c", &p);
+	if ((p >= 'a' && p <= 'z') || (p >= 'A' && p <= 'Z')) 
+  {
+    		if (p=='a' || p=='A' || p=='e' || p=='E' || p=='i' || p=='I' || p=='o' || p=='O' || p== 'u' || p=='U')
+      			{
+			printf("%c is a vowel.\n", p);
+			}
+    		else
+      			{
+			printf("%c is a consonant.\n", p);
+			}
+  }
+  	else
+	{
+    	printf("%c is neither a vowel nor a consonant.\n", p);
+	}
+
+}

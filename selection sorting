@@ -1,0 +1,18 @@
+selection
+
+1.start
+2.read the size of the array in n
+3.create an array of size n (a[n])
+4.i=0
+5.if(i<n) go to 6 else go to 8
+6.read the element into a[i]
+7.i++ go to 5
+8. i=0
+9.  if(i<n) go to 10 else  16
+10.j=i+1
+11.  if(j<n) go to 12 else go to 15
+12  if(a[i]>a[j]) go to 13 else go to 14
+13.   temp=a[i],a[i]=a[j],a[j]=temp 
+14.   j++ go to 11
+15.   i++  go to 9
+16.stop
